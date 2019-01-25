@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/target/*
+
+#/src/main/resources/application.yml
+/src/main/resources/application-test.yml
+/src/main/resources/application-dev.yml
+/src/main/resources/generator/generatorConfig.xml
+/tmp/
+/logs/
+/gwkj-dygzfxxt/logs/gwkj-dygzfxxt.log
