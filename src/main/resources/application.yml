@@ -10,13 +10,13 @@ security:
     client:
       clientId: spring-boot-web-client
       clientSecret: 123123
-      userAuthorizationUri: http://localhost:9999/oauth/authorize
+      userAuthorizationUri: http://172.17.32.114:9999/oauth/authorize
       grant-type: password
       scope: all
-      access-token-uri: http://localhost:9999/oauth/token
+      access-token-uri: http://172.17.32.114:9999/oauth/token
     resource:
       jwt:
-        key-uri: http://localhost:9999/oauth/token_key
+        key-uri: http://172.17.32.114:9999/oauth/token_key
   basic:
     enabled: false
 
@@ -24,7 +24,7 @@ security:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/auth2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://172.17.32.114:3366/auth2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 1234
   aop:
