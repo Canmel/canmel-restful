@@ -126,7 +126,7 @@
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
             <version>5.0.3</version>
-            <scope>test</scope>
+            <!--<scope></scope>-->
         </dependency>
 
 
@@ -144,6 +144,13 @@
                 <filtering>false</filtering>
                 <includes>
                     <include>**/mapper/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <!--包含文件夹以及子文件夹下所有资源-->
+                    <include>**/*.*</include>
                 </includes>
             </resource>
         </resources>
