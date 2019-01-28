@@ -36,7 +36,7 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 public class GeneratorServiceEntity {
     public static void main(String[] args) {
         com.baomidou.mybatisplus.generator.config.GlobalConfig config = new com.baomidou.mybatisplus.generator.config.GlobalConfig();
-        String dbUrl = "jdbc:mysql://localhost:3306/auth2?useSSL=false";
+        String dbUrl = "jdbc:mysql://47.106.234.117:3366/auth2?useSSL=false";
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
         dataSourceConfig.setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
